@@ -12,7 +12,8 @@ h1 {
   font-family: 'Roboto', sans-serif;
   color: rgba(150, 197, 247, 1);
   line-height: normal;
-  font-size: 100px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 h2, h3 {
@@ -23,7 +24,7 @@ h2, h3 {
 
 a {
   text-decoration: none;
-  color: rgba(0, 23, 31, 1);
+  color: rgb(75, 67, 59);
 }
 
 a:hover {
@@ -40,7 +41,10 @@ a:hover {
 
 .container {
   background: white;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
   margin-left: 300px;
   margin-right: 300px;
   margin-top: 30px;
@@ -63,8 +67,8 @@ a:hover {
   padding: 0px;
 }
 
-.btn-blue {
-  background-color: #6B72E1;
+.btn-brown {
+  background-color: rgb(75, 67, 59);
   color: white;
   padding: 15px 20px;
   border-radius: 4px;
