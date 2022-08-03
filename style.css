@@ -52,8 +52,10 @@ a:hover {
 }
 
 .footer {
+  width: 50%;
   border-radius: 4px;
   padding-bottom: 30px;
+  margin: 0 auto;
 }
 
 .list-inline > li {
